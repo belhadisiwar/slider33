@@ -1,0 +1,38 @@
+.image{
+    width: 100%;
+    height:750px;
+    background-image: url('../../assets/images/slider_image_home@1x.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.navbarstyle{
+
+    color: white;
+  }
+ .nav-link {
+   color: white;
+   text-decoration: none;
+ }
+ .nav-item a:hover{
+   color: white;
+ }
+ .myph1{
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ 
+   .para{
+     text-align: center;
+     color: white;
+ }
+ .BACK{
+  background-color:lightgrey;
+}
+  .img1{
+    margin-left: 400px;
+    margin-top: 10px;
+    width: 300px;
+  }

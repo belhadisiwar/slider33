@@ -1,0 +1,23 @@
+
+    <div class="container-fluid">
+      <h1 class="text-center mb-3 EXPLORE">EXPLORE OUR SERVICES</h1>
+      <div class="card-title">
+        <img src="../../assets/images/title _line_category_1@1x.png" width="90px" height="90px" class="img-fluid">
+      </div>
+  <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner row w-75 mx-auto">
+            <div class="carousel-item col-md-4  " *ngFor= "let client of  user ; let i=index" [class.active]="i === 0 ">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="http://{{client.imagePath}}">
+                <div class="card-body">
+                  <img src="../../assets/images/title _line_category_1@1x.png" width="90px" height="90px"  class="img-fluid">
+                  <h4 class="card-title">{{client.label}}</h4>
+                  <p class="card-text">{{client.description}}</p><br>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>

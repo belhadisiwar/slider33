@@ -1,0 +1,34 @@
+.image6{
+    width: 100%;
+    height:550px;
+    background-image: url('../../assets/images/news_letter_background_image_home@1x.png');
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   }
+   .H6{
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  }
+  .inp6{
+    margin-left: 30%;
+    width: 50%;
+    margin-top: 10%;
+  }
+   
+   .P6{
+     color: white;
+     text-align: center;
+   }
+   .carousel6{
+     margin-top: 12%;
+     margin-left: 40%;
+   }
+   .ph6{
+    margin-left: 55%;}
+    .nav-link {
+      color: white;
+      text-decoration: none;
+    }
